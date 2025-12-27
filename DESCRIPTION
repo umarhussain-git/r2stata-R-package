@@ -1,0 +1,16 @@
+Package: r2stata
+Title: Stata-Like Statistical output in R
+Version: 0.0.1
+Authors@R: 
+    person("Umar", "Hussain", email = "drumarhssain@gmail.com", role = c("aut", "cre"))
+Description: Provides interactive Stata-style statistical functions for R data frames. 
+    Includes descriptive statistics, t-tests, ANOVA, chi-square and Fisher exact tests, 
+    Mann-Whitney tests, linear regression, and logistic regression. Designed to mimic 
+    Stata console and commands for ease of use and reproducibility.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: R (>= 4.1.1.0)
+Imports: 
+    stats
